@@ -189,7 +189,15 @@ function HomePage() {
         <div className={classes.toolbar} />
         <div className="homeGrid">
           <Cards></Cards>
-          <Boxes style={{ backgroundColor: 'ivory' }}></Boxes>
+<div className="box">
+           
+          { window.screen.width* window.devicePixelRatio > 600 &&
+
+            <Boxes style={{ backgroundColor: 'ivory' }}></Boxes>
+            
+}
+          </div>
+ 
         </div>
 
 
