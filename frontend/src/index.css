@@ -52,6 +52,12 @@ button { margin: 1em; }
  .home{ margin-left: 4%;
   
  }
+ .home{
+  width: 95%;
+  margin-left:  4%;  
+  background-color:ivory;
+
+}
  .login{  
   color:white;
   position: fixed;
@@ -106,6 +112,12 @@ max-height: 80px;
   .box{
     display: none;
   }
+  .home{
+    width: 95%;
+    margin-left:  4%;  
+    background-color:ivory;
+
+  }
   .inputField{
     display:none;
     padding-left:10px;
@@ -145,6 +157,12 @@ max-height: 80px;
   .box{
     display: none;
   }
+  .home{
+    width: 95%;
+    margin-left:  4%;  
+    background-color:ivory;
+
+  }
 .inputField{
   display: none;
   padding-left:10px;
@@ -180,6 +198,12 @@ max-height: 80px;
   .box{
     display: block;
   }
+  .home{
+    width: 80%;
+    margin-left:  4%;  
+    background-color:ivory;
+
+  }
   .inputField{
     padding-left:10px;
     width: 400px;
@@ -203,6 +227,12 @@ max-height: 80px;
     .box{
       display: block;
     }
+    .home{
+      width: 80%;
+      margin-left:  4%;  
+      background-color:ivory;
+  
+    }
     .inputField{
       padding-left:10px;
       width: 400px;
@@ -225,6 +255,12 @@ max-height: 80px;
   @media only screen and (min-width: 1100px) {
     .box{
       display: block;
+    }
+    .home{
+      width: 80%;
+      margin-left:  4%;  
+      background-color:ivory;
+  
     }
     .inputField{
       float: left;
@@ -272,14 +308,7 @@ max-height: 80px;
     background-color:black;
   }
   
-  @media only screen and (min-width: 500px) {
-  .home{
-    width: 97%;
-    margin-left:  4%;  
-    background-color:ivory;
-
-  }
-  }
+  
 
   .characters {
     list-style: none;
