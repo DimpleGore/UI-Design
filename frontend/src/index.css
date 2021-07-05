@@ -48,8 +48,9 @@ code {
 
 button { margin: 1em; }
 
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: 300px) {
  .home{ margin-left: 4%;
+  
  }
  .login{  
   color:white;
@@ -142,7 +143,7 @@ max-height: 80px;
 
 @media only screen and (min-width: 600px) {
   .box{
-    display: block;
+    display: none;
   }
 .inputField{
   display: none;
@@ -273,7 +274,7 @@ max-height: 80px;
   
   @media only screen and (min-width: 500px) {
   .home{
-    width: 80%;
+    width: 97%;
     margin-left:  4%;  
     background-color:ivory;
 
