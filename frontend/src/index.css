@@ -48,11 +48,43 @@ code {
 
 button { margin: 1em; }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 200px) {
+ .home{ margin-left: 4%;
+ }
+ .login{  
+  color:white;
+  position: fixed;
+  right: 60px;
+  font-size: 15px;
+}
+.signUp{
+  color:white;
+  right: 15px;
+  font-size: 15px;
+  
+}
+.search{
+  display: block;
+}
+  .box{
+    display: none;
+  }
+  .inputField{
+    display:none;
+    padding-left:10px;
+    width: 200px;
+    height: 50px;
+    display: none;
+    border-radius: 10px;
+    border:cornsilk;
+    font-size: 30px;
+  }
+}
+/*@media only screen and (max-width: 500px) {
   .text {
       display: none;
   }
-}
+}*/
 
 .topnav {
   background-color: #333;
@@ -74,6 +106,7 @@ max-height: 80px;
     display: none;
   }
   .inputField{
+    display:none;
     padding-left:10px;
     width: 200px;
     height: 50px;
@@ -112,7 +145,7 @@ max-height: 80px;
     display: block;
   }
 .inputField{
-  display: block;
+  display: none;
   padding-left:10px;
   width: 200px;
   height: 50px;
@@ -132,7 +165,7 @@ max-height: 80px;
   
 }
 .search{
-  display: none;
+  display: block;
 }
 .navigationBar{
   display: grid;
